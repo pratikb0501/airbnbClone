@@ -1,0 +1,48 @@
+.banner-main-div {
+  width: 100%;
+  background-color: var(--black);
+}
+
+.banner-poster {
+  width: 90%;
+  padding: 20px 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.banner-poster img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.img-content {
+  color: var(--white);
+  position: absolute;
+  bottom: 10%;
+  left: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-content h2 {
+  font-size: 38px;
+}
+.img-content p {
+  width: 30%;
+  border-radius: 100px;
+  padding: 0.8rem;
+  background-color: var(--white);
+  text-align: center;
+  margin-top: 0.8rem;
+  cursor: pointer;
+}
+.img-content span {
+  color: transparent;
+  background-image: linear-gradient(90deg, #6f019c 0%, #c6017e 135.12%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.2rem;
+  font-weight: 600;
+}

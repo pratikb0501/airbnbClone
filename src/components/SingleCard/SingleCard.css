@@ -1,0 +1,22 @@
+.main-div {
+  width: 100%;
+  border-radius: 14px;
+}
+
+.img-div img {
+  width: 100%;
+  border-radius: 14px 14px 0 0;
+  object-fit: contain;
+}
+
+.div-description {
+  border-radius: 0 0 14px 14px;
+  color: var(--white);
+  padding: 10px;
+  height: 8rem;
+}
+
+.city-name {
+  font-size: 27px;
+  font-weight: 600;
+}
