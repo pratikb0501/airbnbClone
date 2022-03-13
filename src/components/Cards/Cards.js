@@ -52,7 +52,9 @@ export default function Cards() {
         <div className="all-cards">
             {
                 CITIES.map((city) => (
-                    <SingleCard city={city} />
+                    <div key={city.id}>
+                        <SingleCard city={city} />
+                    </div>
                 ))
             }
         </div>
