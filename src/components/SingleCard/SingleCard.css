@@ -20,3 +20,9 @@
   font-size: 27px;
   font-weight: 600;
 }
+
+@media only screen and (max-width: 450px) {
+  .main-div {
+    margin-top: 10px;
+  }
+}
